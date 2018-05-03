@@ -1,0 +1,24 @@
+PODS:
+  - HTActionSheet (0.1.0):
+    - SDWebImage (~> 4.3.3)
+    - SnapKit (~> 4.0.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - HTActionSheet (from `../HTActionSheet.podspec`)
+
+EXTERNAL SOURCES:
+  HTActionSheet:
+    :path: ../HTActionSheet.podspec
+
+SPEC CHECKSUMS:
+  HTActionSheet: 0b3129258b96d0df36e61ddf007501cf66ff5f2e
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: a93cb169fbfad5da86b865c5a94bf061446902ad
+
+COCOAPODS: 1.4.0

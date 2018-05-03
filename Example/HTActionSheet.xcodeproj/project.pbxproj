@@ -41,9 +41,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		744D539E4321FF4C3FEFE88D /* Pods-HTActionSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTActionSheet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTActionSheet_Tests/Pods-HTActionSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7C22DD3309E923808CF4EF9F /* HTActionSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTActionSheet.podspec; path = ../HTActionSheet.podspec; sourceTree = "<group>"; };
-		99A932837D4B1D34BB58E33F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A0AFACD8B84E7DE1DE0B2B05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7C22DD3309E923808CF4EF9F /* HTActionSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTActionSheet.podspec; path = ../HTActionSheet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99A932837D4B1D34BB58E33F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0AFACD8B84E7DE1DE0B2B05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B62446639993374C6E11884B /* Pods-HTActionSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTActionSheet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTActionSheet_Example/Pods-HTActionSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA5BDA0BFCCD0DDFDA6BC4F /* Pods_HTActionSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTActionSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E1FB472D49E9891DEDFF2C /* Pods_HTActionSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTActionSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -353,10 +353,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HTActionSheet_Example/Pods-HTActionSheet_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HTActionSheet/HTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

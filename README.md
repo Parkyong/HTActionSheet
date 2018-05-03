@@ -5,6 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/HTActionSheet.svg?style=flat)](https://cocoapods.org/pods/HTActionSheet)
 [![Platform](https://img.shields.io/cocoapods/p/HTActionSheet.svg?style=flat)](https://cocoapods.org/pods/HTActionSheet)
 
+## Screentshot
+<div align="center">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%8D%95%E9%80%89.png">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%8F%8C%E9%80%89.png">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%A4%9A%E9%80%89.png">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E4%B8%AD%E9%97%B4%E6%98%BE%E7%A4%BA.png">
+</div>
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

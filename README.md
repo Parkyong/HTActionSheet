@@ -7,10 +7,10 @@
 
 ## Screentshot
 <div align="center">
-<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%8D%95%E9%80%89.png">
-<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%8F%8C%E9%80%89.png">
-<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%A4%9A%E9%80%89.png">
-<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E4%B8%AD%E9%97%B4%E6%98%BE%E7%A4%BA.png">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%8D%95%E9%80%89.png" width="150px" height="auto">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%8F%8C%E9%80%89.png" width="150px" height="auto">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E5%A4%9A%E9%80%89.png" width="150px" height="auto">
+<img src="https://github.com/Parkyong/HTActionSheet/blob/master/%E4%B8%AD%E9%97%B4%E6%98%BE%E7%A4%BA.png" width="150px" height="auto">
 </div>
 
 

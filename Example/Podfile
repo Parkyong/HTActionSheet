@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTActionSheet_Example' do
+  pod 'HTActionSheet', :path => '../'
+
+  target 'HTActionSheet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

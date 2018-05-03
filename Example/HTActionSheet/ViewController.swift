@@ -19,7 +19,7 @@ class ViewController: UIViewController, ActionSheetDelegate{
         actionSheet.backgroundColor = UIColor.gray
         actionSheet.delegate = self;
         self.view.addSubview(actionSheet)
-        actionSheet.show(type: ActionSheetType.ActionSheet_One_BTN, imgPath: imagePath , title:"对话框标题对话框标题" ,message:"对话框内容对话框内容，对话框内容对话框内容", selections: ["选择一","选择一","选择一"], popType: .ActionSheet)
+        actionSheet.show(type: ActionSheetType.ActionSheet_Mutible_BTN, imgPath: imagePath , title:"对话框标题对话框标题" ,message:"对话框内容对话框内容，对话框内容对话框内容", selections: ["选择一","选择一","选择一"], popType: .AlertType)
 
     }
 
